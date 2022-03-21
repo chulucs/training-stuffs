@@ -1,0 +1,42 @@
+.grid form {
+  display: -ms-grid;
+  display: grid;
+  padding: 2rem;
+  -ms-grid-columns: 10rem auto;
+      grid-template-columns: 10rem auto;
+  grid-column-gap: 1rem;
+  grid-auto-rows: 2rem;
+  grid-row-gap: 1rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.grid form label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.grid form input {
+  padding: 0.2rem;
+}
+
+.grid form button {
+  width: 6rem;
+  grid-column: span 2;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grid form button:hover {
+  background-color: black;
+}
+
+.grid form button:active {
+  background-color: rgba(0, 0, 0, 0.541);
+}
+/*# sourceMappingURL=CadastroForm.module.css.map */

@@ -1,0 +1,10 @@
+@import '_variables.scss';
+
+.header {
+  background-color: $bkg-color;
+  color: $header-font-color;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+}

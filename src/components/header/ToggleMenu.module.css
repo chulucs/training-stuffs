@@ -1,0 +1,25 @@
+.toggle-button {
+  width: 2.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0.5rem 0.6rem;
+  vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+}
+
+.toggle-button--bar {
+  width: 100%;
+  background: white;
+  display: block;
+  height: 0.15rem;
+  margin: 0.6rem 0;
+}
+/*# sourceMappingURL=ToggleMenu.module.css.map */
