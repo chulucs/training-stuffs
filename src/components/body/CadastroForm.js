@@ -1,4 +1,5 @@
 import { useRef, useContext } from "react";
+import {useNavigate} from 'react-router-dom';
 import { UserContext } from "../../store/user-context";
 import classes from "./CadastroForm.module.scss";
 
@@ -7,6 +8,7 @@ const CadastroForm = () => {
   const inputName = useRef();
   const inputEmail = useRef();
   const inputSenha = useRef();
+  let navigate = useNavigate();
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -21,6 +23,7 @@ const CadastroForm = () => {
     };
 
     userCtx.addUser(userObj);
+    navigate('/');
   }
 
 

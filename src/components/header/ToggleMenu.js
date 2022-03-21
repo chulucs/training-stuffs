@@ -7,13 +7,11 @@ const ToggleMenu = () => {
   }
 
   return (
-    <div>
       <button className={classes["toggle-button"]} onClick={toggleMobileMenu}>
         <span className={classes["toggle-button--bar"]}></span>
         <span className={classes["toggle-button--bar"]}></span>
         <span className={classes["toggle-button--bar"]}></span>
       </button>
-    </div>
   );
 };
 

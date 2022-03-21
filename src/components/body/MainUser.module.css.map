@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EAED,UAAG,EAAE,IAAI;CAEZ",
+    "sources": [
+        "MainUser.module.scss"
+    ],
+    "names": [],
+    "file": "MainUser.module.css"
+}

@@ -12,6 +12,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header__nav h2 {
@@ -24,6 +26,12 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: 45px;
+}
+
+@media (max-width: 40rem) {
+  .header__nav ul {
+    display: none;
+  }
 }
 
 .header__nav li {

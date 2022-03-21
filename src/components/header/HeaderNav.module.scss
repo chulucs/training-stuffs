@@ -1,10 +1,17 @@
 @import '_variables.scss';
+@mixin media-min-width($width) {
+  @media(max-width: $width) {
+    @content;
+  }
+}
 
 .header__nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 
   h2 {
     margin-left: 15px;
@@ -14,6 +21,9 @@
     list-style: none;
     display: flex;
     margin-right: 45px;
+    @include media-min-width(40rem) {
+      display:none;
+    }
   }
 
   li {
